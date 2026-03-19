@@ -1,20 +1,8 @@
-# Secrets - never commit these
 .env
+*.env
+config.toml
 *.key
-*secret*
-*credentials*
-
-# OpenJarvis config (contains no secrets but lives in ~/ - copy sanitized version only)
-# config.toml is copied manually as config.toml.example
-
-# Python
+*.secret
 __pycache__/
-*.pyc
 .venv/
-
-# Node
-node_modules/
-
-# OS
-.DS_Store
-Thumbs.db
+*.pyc

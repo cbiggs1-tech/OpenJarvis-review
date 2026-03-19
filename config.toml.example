@@ -1,6 +1,3 @@
-# OpenJarvis configuration - safe to share, no secrets here
-# Copy to ~/.openjarvis/config.toml and set OPENROUTER_API_KEY as an env var
-
 [engine]
 default = "cloud"
 
